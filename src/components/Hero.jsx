@@ -37,7 +37,7 @@ export const Hero = () => {
 					iPhone 15 Pro
 				</p>
 				<div className="md:w-10/12 w-9/12">
-					<video autoPlay muted className="w-full">
+					<video autoPlay muted key={videoSrc} className="w-full h-full">
 						<source src={videoSrc} type="video/webm" />
 					</video>
 				</div>
