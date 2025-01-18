@@ -2,11 +2,11 @@
 
 # iPhone 16 Pro Website Clone
 
-This project is a detailed recreation of Apple's iPhone 15 Pro website, developed with React.js and TailwindCSS. It showcases the effective use of GSAP (Greensock Animations) and Three.js to display iPhone 15 Pro models in various colors and shapes.
+This project is a detailed recreation of Apple's iPhone 16 Pro website, developed with React.js and TailwindCSS. It showcases the effective use of GSAP (Greensock Animations) and Three.js to display iPhone 15 Pro models in various colors and shapes.
 
 ## 🚀 Main Features
 
-- Faithful recreation of the iPhone 15 Pro interface
+- Faithful recreation of the iPhone 16 Pro interface
 - Smooth animations using GSAP
 - Interactive 3D models with Three.js
 - Responsive design with TailwindCSS
@@ -45,7 +45,7 @@ npm run dev
 
 The website allows users to:
 
-- Explore the iPhone 15 Pro in 3D
+- Explore the iPhone 16 Pro in 3D
 - View different color variants
 - Interact with smooth animations
 - Explore product features
