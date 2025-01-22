@@ -14,25 +14,25 @@ export const navLists = ["Store", "Mac", "iPhone", "Support"];
 export const hightlightsSlides = [
 	{
 		id: 1,
-		textLists: ["Enter A17 Pro.", "Game‑changing chip.", "Groundbreaking performance."],
+		textLists: ["El primer iPhone diseñado con Apple Intelligence en mente.", "Personal, privado y poderoso.1"],
 		video: highlightFirstVideo,
 		videoDuration: 4
 	},
 	{
 		id: 2,
-		textLists: ["Titanium.", "So strong. So light. So Pro."],
+		textLists: ["Nuevo Control de la Cámara. ", "Tu talento fluye como nunca."],
 		video: highlightSecondVideo,
 		videoDuration: 5
 	},
 	{
 		id: 3,
-		textLists: ["iPhone 15 Pro Max has the", "longest optical zoom in", "iPhone ever. Far out."],
+		textLists: ["4K Dolby Vision a 120 cps.", "4 micrófonos nivel pro.", "Un estudio en tu bolsillo."],
 		video: highlightThirdVideo,
 		videoDuration: 2
 	},
 	{
 		id: 4,
-		textLists: ["All-new Action button.", "What will yours do?."],
+		textLists: ["El nuevo chip A18 Pro tiene un ", "rendimiento imparable y una ", "inteligencia incomparable."],
 		video: highlightFourthVideo,
 		videoDuration: 3.63
 	}
