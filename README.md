@@ -15,31 +15,62 @@ This project is a detailed recreation of Apple's iPhone 16 Pro website, develope
 
 ## 🛠️ Technologies Used
 
-- React.js
-- TailwindCSS
-- GSAP (Greensock Animation Platform)
-- Three.js
-- Vite
+- **React.js**: ^19.0.0
+- **React DOM**: ^19.0.0
+- **GSAP (Greensock Animation Platform)**: ^3.12.7
+- **TailwindCSS**: ^4.0.0
+- **Three.js**: Latest version
+- **Vite**: ^6.0.11
+- **Bun.js**: Latest version
+- **Cloudflare**: For deployment and CDN services
 
 ## 📦 Installation
 
-1. Clone the repository:
+Follow these steps to set up the project locally:
 
-```bash
-git clone [URL-del-repositorio]
-```
+1. **Clone the repository**:
 
-2. Install dependencies:
+   ```bash
+   git clone [URL-of-the-repository]
+   ```
 
-```bash
-npm install
-```
+2. **Navigate into the project directory**:
 
-3. Start the development server:
+   ```bash
+   cd apple-website-with-react-threejs
+   ```
 
-```bash
-npm run dev
-```
+3. **Install dependencies**:
+
+   You can use either npm or Bun.js to install the dependencies. Choose one of the following commands:
+
+   Using npm:
+
+   ```bash
+   npm install
+   ```
+
+   Using Bun.js:
+
+   ```bash
+   bun install
+   ```
+
+4. **Start the development server**:
+
+   Using npm:
+
+   ```bash
+   npm run dev
+   ```
+
+   Using Bun.js:
+
+   ```bash
+   bun run dev
+   ```
+
+5. **Open your browser** and navigate to `http://localhost:5173` (or the port specified in your terminal) to view the application.
 
 ## 🎮 Usage
 
@@ -52,13 +83,28 @@ The website allows users to:
 
 ## 🤝 Contributing
 
-Contributions are welcome. For major changes:
+Contributions are welcome! To contribute to this project, please follow these steps:
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/improvement`)
-3. Commit your changes (`git commit -m 'Add new feature'`)
-4. Push to the branch (`git push origin feature/improvement`)
-5. Open a Pull Request
+1. **Fork the repository**.
+2. **Create a new branch**:
+
+   ```bash
+   git checkout -b feature/improvement
+   ```
+
+3. **Commit your changes**:
+
+   ```bash
+   git commit -m 'Add new feature'
+   ```
+
+4. **Push to the branch**:
+
+   ```bash
+   git push origin feature/improvement
+   ```
+
+5. **Open a Pull Request**.
 
 ## 💬 Support
 
@@ -70,7 +116,7 @@ This project is under the MIT License - see the [LICENSE.md](LICENSE.md) file fo
 
 ## 🙋‍♂️ Author
 
-[Deus lo vult]
+**Deus lo vult**
 
 ---
 
