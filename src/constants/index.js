@@ -14,7 +14,7 @@ export const navLists = ["Store", "Mac", "iPhone", "Support"];
 export const hightlightsSlides = [
 	{
 		id: 1,
-		textLists: ["El primer iPhone diseñado con Apple Intelligence en mente.", "Personal, privado y poderoso.1"],
+		textLists: ["El primer iPhone diseñado", "Con Apple Intelligence en mente.", "Personal, privado y poderoso."],
 		video: highlightFirstVideo,
 		videoDuration: 4
 	},
