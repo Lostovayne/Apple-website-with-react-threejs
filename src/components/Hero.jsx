@@ -3,6 +3,7 @@ import { useGSAP } from "@gsap/react";
 import { useState } from "react";
 import { heroVideo, smallHeroVideo } from "@/utils";
 import { useEffect } from "react";
+import { heroImg } from "../utils";
 
 export const Hero = () => {
 	const [videoSrc, setVideoSrc] = useState(window.innerWidth < 768 ? smallHeroVideo : heroVideo);
@@ -38,9 +39,9 @@ export const Hero = () => {
 				<p id="hero" className="hero-title">
 					iPhone 15 Pro
 				</p>
-				<div className="md:w-10/12 w-9/12">
-					<video autoPlay muted key={videoSrc} playsInline className="pointer-events-none">
-						<source src={videoSrc} type="video/webm" />
+				<div className="w-10/12 h-auto ">
+					<video autoPlay muted key={videoSrc} playsInline={true} className=" object-cover pointer-events-none ">
+						<source src={videoSrc} type="video/mp4" />
 					</video>
 				</div>
 			</div>

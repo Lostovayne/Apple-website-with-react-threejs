@@ -13,18 +13,18 @@ export const Highlights = () => {
 	return (
 		<section id="highlights" className="w-dvw overflow-hidden h-full common-padding bg-zinc">
 			<div className="screen-max-width">
-				<div className="mb-12 w-full md:flex items-end justify-between">
+				<div className=" mb-10 md:mb-12 w-full md:flex items-end justify-between">
 					<h1 id="title" className="section-heading">
 						Get the highlights.
 					</h1>
 					<div className="flex flex-wrap items-end gap-5">
-						<p className="link">
+						<p className=" max-sm:text-base link">
 							Watch the film
 							<img src={watchImg} alt="Watch Icon" width={15} height={15} className="ml-2" />
 						</p>
-						<p className="link">
+						<p className="max-sm:text-base link">
 							Watch the event
-							<img src={rightImg} alt="Right Icon" width={10} height={10} className="ml-2" />
+							<img src={rightImg} alt="Right Icon" width={10} height={10} className="ml-2 max-sm:size-3" />
 						</p>
 					</div>
 				</div>

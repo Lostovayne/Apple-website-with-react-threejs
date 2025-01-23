@@ -14,27 +14,27 @@ export const navLists = ["Store", "Mac", "iPhone", "Support"];
 export const hightlightsSlides = [
 	{
 		id: 1,
-		textLists: ["El primer iPhone diseñado", "Con Apple Intelligence en mente.", "Personal, privado y poderoso."],
+		textLists: ["The first iPhone", "Designed with Apple Intelligence in mind", "Personal, private and powerful."],
 		video: highlightFirstVideo,
-		videoDuration: 4
+		videoDuration: 5
 	},
 	{
 		id: 2,
-		textLists: ["Nuevo Control de la Cámara. ", "Tu talento fluye como nunca."],
+		textLists: ["New Camera Control", "Your talent flows like never before"],
 		video: highlightSecondVideo,
 		videoDuration: 5
 	},
 	{
 		id: 3,
-		textLists: ["4K Dolby Vision a 120 cps.", "4 micrófonos nivel pro.", "Un estudio en tu bolsillo."],
+		textLists: ["4K Dolby Vision at 120 fps", "4 pro level microphones", "A studio in your pocket"],
 		video: highlightThirdVideo,
-		videoDuration: 2
+		videoDuration: 5
 	},
 	{
 		id: 4,
-		textLists: ["El nuevo chip A18 Pro tiene un ", "rendimiento imparable y una ", "inteligencia incomparable."],
+		textLists: ["The new A18 Pro chip has", "unstoppable performance and", "unmatched intelligence"],
 		video: highlightFourthVideo,
-		videoDuration: 3.63
+		videoDuration: 5
 	}
 ];
 
