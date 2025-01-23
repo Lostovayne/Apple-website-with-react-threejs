@@ -32,7 +32,7 @@ export const hightlightsSlides = [
 	},
 	{
 		id: 4,
-		textLists: ["The new A18 Pro chip has", "unstoppable performance and", "unmatched intelligence"],
+		textLists: ["The new A18 Pro chip has", "Unstoppable performance and", "Unmatched intelligence"],
 		video: highlightFourthVideo,
 		videoDuration: 5
 	}
